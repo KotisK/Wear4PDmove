@@ -1,4 +1,4 @@
-﻿# Wear4PDmove
+﻿# Wear4PDmoveOnto
 
 Ontology aim/scope:
 
