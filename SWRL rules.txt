@@ -1,9 +1,9 @@
 //if tremor or bradykinisia is detected, then missing dose event recognized and notification to doctor sent
 
-(for bradykinisia)
+(for tremor)
 Rule1:  Observation(?obs), obsAfterDosing(?obs, true), observedProperty(?obs, 'Tremor for PDpatient'), hasTremor(?obs, true) -> sendNotification('Missing Dose Notification', true), 'PDpatient Missing Dose Event Observation'(?obs)
 
-(for tremor)
+(for bradykinisia)
 Rule2: observedProperty(?obs, 'Bradykinisia Upper Limp for PDpatient'), Observation(?obs), obsAfterDosing(?obs, true), hasBradykinisiaOfUpperLimp(?obs, true) -> sendNotification('Missing Dose Notification', true), 'PDpatient Missing Dose Event Observation'(?obs)
 
 
