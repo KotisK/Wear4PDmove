@@ -1,0 +1,44 @@
+//For Snap SPARQL plugin (inferred triples)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX w4pd: <http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+
+//get all activities of all patients
+SELECT ?activity ?patient
+WHERE {
+?patient rdf:type w4pd:PD_Patient;
+		 w4pd:performs ?activity.
+}
+
+//get patient who performs SketchingActivity-01
+SELECT ?patient
+WHERE {
+?patient w4pd:performs w4pd:SketchingActivity-01.
+}
+
+//get observations that has been recorded for PDpatient-002 (inferred triples)
+SELECT ?observation
+WHERE {
+w4pd:PDpatient-002 sosa:isFeatureOfInterestOf ?observation.
+}
+
+// get the patient with the specific PHR
+SELECT ?patient
+WHERE {
+?patient w4pd:hasPersonalHealthRecord w4pd:PDpatient-001HealthRecord.
+}
+		
+// get patient and its personal health record
+SELECT ?patient ?phr
+WHERE {
+?patient rdf:type w4pd:PD_Patient;
+	     w4pd:hasPersonalHealthRecord ?phr.
+}
+
+
+

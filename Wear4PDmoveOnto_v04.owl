@@ -1,0 +1,787 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto"
+     xml:base="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="https://saref.etsi.org/core/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:pmdo="http://www.case.edu/PMDO"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:sosa="http://www.w3.org/ns/sosa/"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dahcc="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="http://schema.org/"
+     xmlns:Wear4PDmoveOnto="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#">
+    <owl:Ontology rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto">
+        <owl:versionIRI rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto/0.0.4"/>
+        <owl:imports rdf:resource="http://www.case.edu/PMDO"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/sosa/"/>
+        <owl:imports rdf:resource="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/"/>
+        <rdfs:comment>The designed Wear4PDmoveOnto aims to semantically integrate heterogeneous data such as dynamic/stream data  (collected from wearables) and static/historic data (stored in health databases), in order to represent personal health knowledge in the form of a KG, supporting health apps’ reasoning capabilities for high-level events recognition (e.g., ‘missing dose’ or  ‘patient fall’ event).</rdfs:comment>
+        <rdfs:label xml:lang="en">Wear4PDmoveOnto</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#consistsOf -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#consistsOf">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasDosageTime -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasDosageTime">
+        <rdfs:subPropertyOf rdf:resource="https://saref.etsi.org/core/hasTime"/>
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#dailyDosagePlan"/>
+        <rdfs:range rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasPersonalHealthRecord -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasPersonalHealthRecord">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Patient"/>
+        <rdfs:range rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord"/>
+        <rdfs:comment></rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#isPerformedBy -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#isPerformedBy">
+        <owl:inverseOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#performs"/>
+        <rdfs:label>isPerformedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#performs -->
+
+    <owl:ObjectProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#performs">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Patient"/>
+        <rdfs:range rdf:resource="http://www.case.edu/MDO#ActivitiesofDailyLiving"/>
+        <rdfs:comment>human (patient) performs an action (ADL)</rdfs:comment>
+        <rdfs:label>performs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasBradykinisiaOfUpperLimp -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasBradykinisiaOfUpperLimp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasTremor -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasTremor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#obsAfterDosing -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#obsAfterDosing">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>Check if observation is taken 30 min after the last dosage of dosage plan</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#sendNotification -->
+
+    <owl:DatatypeProperty rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#sendNotification">
+        <rdfs:domain rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#AlertingNotification"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/hasAxis -->
+
+    <owl:DatatypeProperty rdf:about="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/hasAxis"/>
+    
+
+
+    <!-- https://saref.etsi.org/core/hasTimestamp -->
+
+    <rdf:Description rdf:about="https://saref.etsi.org/core/hasTimestamp">
+        <rdfs:label>dose time</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#AlertingNotification -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#AlertingNotification">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core/ActuatingFunction"/>
+        <rdfs:label>Alerting Notification Function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Diagnosis -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Diagnosis">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord"/>
+        <rdfs:label>Diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/core/Time"/>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD_Patient -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD_Patient">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Patient"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasPersonalHealthRecord"/>
+                <owl:someValuesFrom rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>PD patient</rdfs:comment>
+        <rdfs:label>PD Patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatientFalllingEventObservation -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatientFalllingEventObservation">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#RecognizedEvent"/>
+        <rdfs:label>PDpatient Fallling Event Observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatientMissingDoseEventObservation -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatientMissingDoseEventObservation">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#RecognizedEvent"/>
+        <rdfs:label>PDpatient Missing Dose Event Observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Patient -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Patient">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Person"/>
+        <rdfs:comment>Any kind of patient</rdfs:comment>
+        <rdfs:label>Patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#RecognizedEvent -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#RecognizedEvent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <rdfs:label>PD patient recognized event observation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/MDO#ActivitiesofDailyLiving"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/isMeasuredByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SmartWatch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An activity followed by the patient during his free time, using his hands (sketching).</rdfs:comment>
+        <rdfs:label xml:lang="en">Sketching Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SmartWatch -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SmartWatch">
+        <rdfs:subClassOf rdf:resource="https://saref.etsi.org/saref4wear/OnBodyWearable"/>
+        <rdfs:comment xml:lang="en">An off-the-shelf smart watch with sensors able to measure movement</rdfs:comment>
+        <rdfs:label xml:lang="en">Smart Watch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TweetTheDoctor -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TweetTheDoctor">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#AlertingNotification"/>
+        <rdfs:label>Notify Doctor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#WalkingActivity -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#WalkingActivity">
+        <rdfs:subClassOf rdf:resource="http://www.case.edu/MDO#ActivitiesofDailyLiving"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://saref.etsi.org/core/isMeasuredByDevice"/>
+                <owl:someValuesFrom rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SmartWatch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An activity followed by the patient during his free time, using his hands (walking).</rdfs:comment>
+        <rdfs:label xml:lang="en">Walking Activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#dailyDosagePlan -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#dailyDosagePlan">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#medicalPrescription"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasDosageTime"/>
+                <owl:someValuesFrom rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Daily Dosage Plan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#medicalPrescription -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#medicalPrescription">
+        <rdfs:subClassOf rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord"/>
+        <rdfs:label>Medical Prescription</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord -->
+
+    <owl:Class rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord">
+        <rdfs:comment>Personal Health Record of a patient</rdfs:comment>
+        <rdfs:label>Personal Health Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/FeatureOfInterest -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest">
+        <owl:equivalentClass rdf:resource="https://saref.etsi.org/core/FeatureOfInterest"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://saref.etsi.org/core/FeatureOfInterest -->
+
+    <rdf:Description rdf:about="https://saref.etsi.org/core/FeatureOfInterest"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Acc22-sensor -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Acc22-sensor">
+        <rdf:type rdf:resource="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/Accelerometer"/>
+        <sosa:observes rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Wearable_Acceleration_for_PD_movement"/>
+        <rdfs:label>Samsung Sensor Accelerometer 22</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#BradykinisiaUpperLimpForPDpatient -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#BradykinisiaUpperLimpForPDpatient">
+        <rdf:type rdf:resource="http://www.case.edu/PMDO#BradykinesiaofUpperLimb"/>
+        <rdfs:label>Bradykinisia Upper Limp for PDpatient</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DailyDosagePlan3Times -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DailyDosagePlan3Times">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#dailyDosagePlan"/>
+        <rdfs:label>Daily Dosage Plan 3 Times</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DailyDosagePlan4Times -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DailyDosagePlan4Times">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#dailyDosagePlan"/>
+        <rdfs:label>Daily Dosage Plan 4 Times</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#FallingNotification -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#FallingNotification">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TweetTheDoctor"/>
+        <rdfs:label>Falling Notification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#MissingDoseNotification -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#MissingDoseNotification">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TweetTheDoctor"/>
+        <rdfs:label>Missing Dose Notification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD-patient-Observation-001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD-patient-Observation-001">
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-001"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PatientMovement"/>
+        <sosa:madeBySensor rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Acc22-sensor"/>
+        <sosa:observedProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#BradykinisiaUpperLimpForPDpatient"/>
+        <sosa:observedProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TremorForPDPatient"/>
+        <sosa:observedProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Wearable_Acceleration_for_PD_movement"/>
+        <Wear4PDmoveOnto:hasBradykinisiaOfUpperLimp rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Wear4PDmoveOnto:hasBradykinisiaOfUpperLimp>
+        <Wear4PDmoveOnto:hasTremor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Wear4PDmoveOnto:hasTremor>
+        <Wear4PDmoveOnto:obsAfterDosing rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Wear4PDmoveOnto:obsAfterDosing>
+        <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-06T12:36:12.150Z</sosa:resultTime>
+        <rdfs:label>PDpatient Observation-001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD-patient-Observation-002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD-patient-Observation-002">
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-002"/>
+        <sosa:hasFeatureOfInterest rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PatientMovement"/>
+        <sosa:madeBySensor rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Acc22-sensor"/>
+        <sosa:observedProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#BradykinisiaUpperLimpForPDpatient"/>
+        <sosa:observedProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TremorForPDPatient"/>
+        <sosa:observedProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Wearable_Acceleration_for_PD_movement"/>
+        <Wear4PDmoveOnto:hasBradykinisiaOfUpperLimp rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Wear4PDmoveOnto:hasBradykinisiaOfUpperLimp>
+        <Wear4PDmoveOnto:hasTremor rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Wear4PDmoveOnto:hasTremor>
+        <Wear4PDmoveOnto:obsAfterDosing rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Wear4PDmoveOnto:obsAfterDosing>
+        <core:hasTimestamp rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-04T12:42:12.150Z</core:hasTimestamp>
+        <rdfs:label>PDpatient Observation-002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-001 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-001">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD_Patient"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <Wear4PDmoveOnto:hasPersonalHealthRecord rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-001HealthRecord"/>
+        <Wear4PDmoveOnto:performs rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity-01"/>
+        <rdfs:comment xml:lang="en">A specific PD patient observed during a specific  observation.</rdfs:comment>
+        <rdfs:label xml:lang="en">PDpatient-001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-001HealthRecord -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-001HealthRecord">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord"/>
+        <rdfs:label>PDpatient-001 Health Record</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-002 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-002">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PD_Patient"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <Wear4PDmoveOnto:hasPersonalHealthRecord rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DailyDosagePlan4Times"/>
+        <Wear4PDmoveOnto:hasPersonalHealthRecord rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-002HealthRecord"/>
+        <Wear4PDmoveOnto:performs rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity-02"/>
+        <rdfs:label>PDpatient-002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-002HealthRecord -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatient-002HealthRecord">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#personalHealthRecord"/>
+        <rdfs:label>PDpatient-002 Health Record</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PatientMovement -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PatientMovement">
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <rdfs:comment xml:lang="en">Recording PD patient movement from wearables</rdfs:comment>
+        <rdfs:label xml:lang="en">Patient Movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SamsungGalaxyWatch-46MM-SM-R800 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SamsungGalaxyWatch-46MM-SM-R800">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SmartWatch"/>
+        <rdfs:label xml:lang="en">Samsung Galaxy Watch 46MM-SM-R800</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity-01 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity-01">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity"/>
+        <rdfs:label>SketchingActivity-01</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity-02 -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity-02">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#SketchingActivity"/>
+        <rdfs:label>SketchingActivity-02</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfFirstDosage -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfFirstDosage">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime"/>
+        <core:hasTimestamp>08:00</core:hasTimestamp>
+        <rdfs:label>Time of First Dosage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfFourthDosage -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfFourthDosage">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime"/>
+        <core:hasTimestamp>20:00</core:hasTimestamp>
+        <rdfs:label>Time of Forth Dosage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfSecondDosage -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfSecondDosage">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime"/>
+        <core:hasTimestamp>12:00</core:hasTimestamp>
+        <rdfs:label>Time of Second Dosage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfThirdDosage -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TimeOfThirdDosage">
+        <rdf:type rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#DosageTime"/>
+        <core:hasTimestamp>16:00</core:hasTimestamp>
+        <rdfs:label>Time of Third Dosage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TremorForPDPatient -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TremorForPDPatient">
+        <rdf:type rdf:resource="http://www.case.edu/MDO#Tremor"/>
+        <rdfs:label>Tremor for PDpatient</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Wearable_Acceleration_for_PD_movement -->
+
+    <owl:NamedIndividual rdf:about="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Wearable_Acceleration_for_PD_movement">
+        <rdf:type rdf:resource="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/WearableAcceleration"/>
+        <sosa:observedProperty rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#Wearable_Acceleration_for_PD_movement"/>
+        <rdfs:label xml:lang="en">Wearable Acceleration for PD movement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#obs">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S4</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#obsAfterDosing"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                                        <swrl:argument2 rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#TremorForPDPatient"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasTremor"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#sendNotification"/>
+                        <swrl:argument1 rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#MissingDoseNotification"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatientMissingDoseEventObservation"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#obsAfterDosing"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                                        <swrl:argument2 rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#BradykinisiaUpperLimpForPDpatient"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#hasBradykinisiaOfUpperLimp"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#sendNotification"/>
+                        <swrl:argument1 rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#MissingDoseNotification"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://i-lab.aegean.gr/ontologies/Wear4PDmoveOnto#PDpatientMissingDoseEventObservation"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#obs"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
