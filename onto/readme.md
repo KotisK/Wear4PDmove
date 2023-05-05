@@ -6,4 +6,5 @@ Changes:
 - New URI (public @W3id.org)
 - New classes/properties
 - New instances for experimental scenarios
-- ...
+- New documentation (LODE)
+- Validation by OOPS!
