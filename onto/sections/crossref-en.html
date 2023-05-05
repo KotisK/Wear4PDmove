@@ -1,0 +1,3848 @@
+<h2 id="crossreference" class="list">Cross-reference for Wear4PDmoveOnto classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Wear4PDmoveOnto.
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#AlertingNotification"
+            title="http://w3id.org/Wear4PDmove/onto#AlertingNotification">Alerting Notification Function</a>
+      </li>
+      <li>
+         <a href="#DailyDosagePlan" title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan">Daily Dosage Plan</a>
+      </li>
+      <li>
+         <a href="#Diagnosis" title="http://w3id.org/Wear4PDmove/onto#Diagnosis">Diagnosis</a>
+      </li>
+      <li>
+         <a href="#DosageTime" title="http://w3id.org/Wear4PDmove/onto#DosageTime">Dosage Time (time in one day)</a>
+      </li>
+      <li>
+         <a href="#MedicalPrescription"
+            title="http://w3id.org/Wear4PDmove/onto#MedicalPrescription">Medical Prescription</a>
+      </li>
+      <li>
+         <a href="#NotifyDoctor" title="http://w3id.org/Wear4PDmove/onto#NotifyDoctor">Notify Doctor</a>
+      </li>
+      <li>
+         <a href="#Patient" title="http://w3id.org/Wear4PDmove/onto#Patient">Patient</a>
+      </li>
+      <li>
+         <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+      </li>
+      <li>
+         <a href="#RecognizedEvent" title="http://w3id.org/Wear4PDmove/onto#RecognizedEvent">PD patient recognized event observation</a>
+      </li>
+      <li>
+         <a href="#PDpatientFalllingEventObservation"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatientFalllingEventObservation">PDpatient Fallling Event Observation</a>
+      </li>
+      <li>
+         <a href="#PDpatientMissingDoseEventObservation"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatientMissingDoseEventObservation">PDpatient Missing Dose Event Observation</a>
+      </li>
+      <li>
+         <a href="#PersonalHealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+      </li>
+      <li>
+         <a href="#SketchingActivity"
+            title="http://w3id.org/Wear4PDmove/onto#SketchingActivity">Sketching Activity</a>
+      </li>
+      <li>
+         <a href="#SmartWatch" title="http://w3id.org/Wear4PDmove/onto#SmartWatch">Smart Watch</a>
+      </li>
+      <li>
+         <a href="#WalkingActivity" title="http://w3id.org/Wear4PDmove/onto#WalkingActivity">Walking Activity</a>
+      </li>
+   </ul>
+   <div class="entity" id="AlertingNotification">
+      <h3>Alerting Notification Function<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#AlertingNotification</p>
+      <div class="comment">
+         <span class="markdown">Alerting Notification Function for event</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://saref.etsi.org/core/ActuatingFunction"
+               target="_blank"
+               title="https://saref.etsi.org/core/ActuatingFunction">actuating function</a>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#NotifyDoctor" title="http://w3id.org/Wear4PDmove/onto#NotifyDoctor">Notify Doctor</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#sendNotification"
+               title="http://w3id.org/Wear4PDmove/onto#sendNotification">send notification</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DailyDosagePlan">
+      <h3>Daily Dosage Plan<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#DailyDosagePlan</p>
+      <div class="comment">
+         <span class="markdown">Daily dosage plan for patient (4 times one day)</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#MedicalPrescription"
+               title="http://w3id.org/Wear4PDmove/onto#MedicalPrescription">Medical Prescription</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasDosageTime" title="http://w3id.org/Wear4PDmove/onto#hasDosageTime">has dosage time</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#DailyDosagePlan3Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan3Times">Daily Dosage Plan 3 Times</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Diagnosis">
+      <h3>Diagnosis<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#Diagnosis</p>
+      <div class="comment">
+         <span class="markdown">diagnosis for patient in one appointment</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DosageTime">
+      <h3>Dosage Time (time in one day)<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#DosageTime</p>
+      <div class="comment">
+         <span class="markdown">Dosage time on datetime</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://saref.etsi.org/core/Time"
+               target="_blank"
+               title="https://saref.etsi.org/core/Time">time</a>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasDosageTime" title="http://w3id.org/Wear4PDmove/onto#hasDosageTime">has dosage time</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#TimeOfFirstDosage"
+               title="http://w3id.org/Wear4PDmove/onto#TimeOfFirstDosage">Time of First Dosage</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#TimeOfFourthDosage"
+               title="http://w3id.org/Wear4PDmove/onto#TimeOfFourthDosage">Time of Forth Dosage</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#TimeOfSecondDosage"
+               title="http://w3id.org/Wear4PDmove/onto#TimeOfSecondDosage">Time of Second Dosage</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#TimeOfThirdDosage"
+               title="http://w3id.org/Wear4PDmove/onto#TimeOfThirdDosage">Time of Third Dosage</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="MedicalPrescription">
+      <h3>Medical Prescription<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#MedicalPrescription</p>
+      <div class="comment">
+         <span class="markdown">Medical Prescription for Patient</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#DailyDosagePlan" title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan">Daily Dosage Plan</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="NotifyDoctor">
+      <h3>Notify Doctor<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#NotifyDoctor</p>
+      <div class="comment">
+         <span class="markdown">Notify doctor for event (alert notification)</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#AlertingNotification"
+               title="http://w3id.org/Wear4PDmove/onto#AlertingNotification">Alerting Notification Function</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#FallingNotification"
+               title="http://w3id.org/Wear4PDmove/onto#FallingNotification">Falling Notification</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#MissingDoseNotification"
+               title="http://w3id.org/Wear4PDmove/onto#MissingDoseNotification">Missing Dose Notification</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Patient">
+      <h3>Patient<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#Patient</p>
+      <div class="comment">
+         <span class="markdown">Any kind of patient</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://schema.org/Person"
+               target="_blank"
+               title="http://schema.org/Person">person</a>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD_Patient">
+      <h3>PD Patient<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD_Patient</p>
+      <div class="comment">
+         <span class="markdown">PD patient</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Patient" title="http://w3id.org/Wear4PDmove/onto#Patient">Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#PDpatient-001" title="http://w3id.org/Wear4PDmove/onto#PDpatient-001">PDpatient-001</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-002" title="http://w3id.org/Wear4PDmove/onto#PDpatient-002">PDpatient-002</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-003" title="http://w3id.org/Wear4PDmove/onto#PDpatient-003">PDpatient-003</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-004" title="http://w3id.org/Wear4PDmove/onto#PDpatient-004">PDpatient-004</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-005" title="http://w3id.org/Wear4PDmove/onto#PDpatient-005">PDpatient-005</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-006" title="http://w3id.org/Wear4PDmove/onto#PDpatient-006">PDpatient-006</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-007" title="http://w3id.org/Wear4PDmove/onto#PDpatient-007">PDpatient-007</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-008" title="http://w3id.org/Wear4PDmove/onto#PDpatient-008">PDpatient-008</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-009" title="http://w3id.org/Wear4PDmove/onto#PDpatient-009">PDpatient-009</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-010" title="http://w3id.org/Wear4PDmove/onto#PDpatient-010">PDpatient-010</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RecognizedEvent">
+      <h3>PD patient recognized event observation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#RecognizedEvent</p>
+      <div class="comment">
+         <span class="markdown">Recognized event for one PD Patient</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#PDpatientFalllingEventObservation"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatientFalllingEventObservation">PDpatient Fallling Event Observation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PDpatientMissingDoseEventObservation"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatientMissingDoseEventObservation">PDpatient Missing Dose Event Observation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatientFalllingEventObservation">
+      <h3>PDpatient Fallling Event Observation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatientFalllingEventObservation</p>
+      <div class="comment">
+         <span class="markdown">Falling event observation for PD Patient</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#RecognizedEvent" title="http://w3id.org/Wear4PDmove/onto#RecognizedEvent">PD patient recognized event observation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatientMissingDoseEventObservation">
+      <h3>PDpatient Missing Dose Event Observation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatientMissingDoseEventObservation</p>
+      <div class="comment">
+         <span class="markdown">Missing dose event Observation for PD Patient</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#RecognizedEvent" title="http://w3id.org/Wear4PDmove/onto#RecognizedEvent">PD patient recognized event observation</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PersonalHealthRecord">
+      <h3>Personal Health Record<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord</p>
+      <div class="comment">
+         <span class="markdown">Personal Health Record of a patient</span>
+      </div>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Diagnosis" title="http://w3id.org/Wear4PDmove/onto#Diagnosis">Diagnosis</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MedicalPrescription"
+               title="http://w3id.org/Wear4PDmove/onto#MedicalPrescription">Medical Prescription</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#consistsOf" title="http://w3id.org/Wear4PDmove/onto#consistsOf">consists of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#PDpatient-001HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-001HealthRecord">PDpatient-001 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-002HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-002HealthRecord">PDpatient-002 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-003HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-003HealthRecord">PDpatient-003 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-004HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-004HealthRecord">PDpatient-004 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-005HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-005HealthRecord">PDpatient-005 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-006HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-006HealthRecord">PDpatient-006 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-007HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-007HealthRecord">PDpatient-007 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-008HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-008HealthRecord">PDpatient-008 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-009HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-009HealthRecord">PDpatient-009 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#PDpatient-010HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-010HealthRecord">PDpatient-010 Health Record</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SketchingActivity">
+      <h3>Sketching Activity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#SketchingActivity</p>
+      <div class="comment">
+         <span class="markdown">An activity followed by the patient during his free time, using his hands (sketching).</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.case.edu/MDO#ActivitiesofDailyLiving"
+               target="_blank"
+               title="http://www.case.edu/MDO#ActivitiesofDailyLiving">activitiesof daily living</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#SketchingActivity-01"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-01">SketchingActivity-01</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SmartWatch">
+      <h3>Smart Watch<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#SmartWatch</p>
+      <div class="comment">
+         <span class="markdown">An off-the-shelf smart watch with sensors able to measure movement</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="https://saref.etsi.org/saref4wear/OnBodyWearable"
+               target="_blank"
+               title="https://saref.etsi.org/saref4wear/OnBodyWearable">on body wearable</a>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#SamsungGalaxyWatch-46MM-SM-R800"
+               title="http://w3id.org/Wear4PDmove/onto#SamsungGalaxyWatch-46MM-SM-R800">Samsung Galaxy Watch 46MM-SM-R800</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="WalkingActivity">
+      <h3>Walking Activity<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#WalkingActivity</p>
+      <div class="comment">
+         <span class="markdown">An activity followed by the patient during his free time, using his hands (walking).</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="http://www.case.edu/MDO#ActivitiesofDailyLiving"
+               target="_blank"
+               title="http://www.case.edu/MDO#ActivitiesofDailyLiving">activitiesof daily living</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#consistsOf" title="http://w3id.org/Wear4PDmove/onto#consistsOf">
+            <span>consists of</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDosageTime" title="http://w3id.org/Wear4PDmove/onto#hasDosageTime">
+            <span>has dosage time</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasPersonalHealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">
+            <span>has personal health record</span>
+         </a>
+      </li>
+      <li>
+         <a href="#isPerformedBy" title="http://w3id.org/Wear4PDmove/onto#isPerformedBy">isPerformedBy</a>
+      </li>
+      <li>
+         <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+      </li>
+   </ul>
+   <div class="entity" id="consistsOf">
+      <h3>consists of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#consistsOf</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonalHealthRecord"
+                  title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDosageTime">
+      <h3>has dosage time<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasDosageTime</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="https://saref.etsi.org/core/hasTime"
+                  target="_blank"
+                  title="https://saref.etsi.org/core/hasTime">has time</a>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#DailyDosagePlan" title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan">Daily Dosage Plan</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#DosageTime" title="http://w3id.org/Wear4PDmove/onto#DosageTime">Dosage Time (time in one day)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasPersonalHealthRecord">
+      <h3>has personal health record<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord</p>
+      <div class="comment">
+         <span class="markdown"/>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Patient" title="http://w3id.org/Wear4PDmove/onto#Patient">Patient</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PersonalHealthRecord"
+                  title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isPerformedBy">
+      <h3>isPerformedBy<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#isPerformedBy</p>
+      <div class="description">
+         <dl>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="performs">
+      <h3>performs<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#performs</p>
+      <div class="comment">
+         <span class="markdown">human (patient) performs an action (ADL)</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Patient" title="http://w3id.org/Wear4PDmove/onto#Patient">Patient</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.case.edu/MDO#ActivitiesofDailyLiving"
+                  target="_blank"
+                  title="http://www.case.edu/MDO#ActivitiesofDailyLiving">activitiesof daily living</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isPerformedBy" title="http://w3id.org/Wear4PDmove/onto#isPerformedBy">isPerformedBy</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">
+            <span>age of patient</span>
+         </a>
+      </li>
+      <li>
+         <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">
+            <span>body mass index</span>
+         </a>
+      </li>
+      <li>
+         <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">
+            <span>disease duration</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">
+            <span>has akinesia</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">
+            <span>has anxiety</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasBradykinisiaOfUpperLimp"
+            title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">
+            <span>has bradykinisia of upper limp</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">
+            <span>has depression</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">
+            <span>has dysphagia</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">
+            <span>has fatigue</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasFreezingOfGait"
+            title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">
+            <span>has freezing of gait</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasPosturalInstability"
+            title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">
+            <span>has postural instability</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">
+            <span>has rigidity</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasSleepDisturbances"
+            title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">
+            <span>has sleep disturbances</span>
+         </a>
+      </li>
+      <li>
+         <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">
+            <span>has tremor</span>
+         </a>
+      </li>
+      <li>
+         <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">
+            <span>heart rate</span>
+         </a>
+      </li>
+      <li>
+         <a href="#levelHoehnYahrStage"
+            title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">
+            <span>level hoehn yahr stage</span>
+         </a>
+      </li>
+      <li>
+         <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">
+            <span>obs after dosing</span>
+         </a>
+      </li>
+      <li>
+         <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">
+            <span>score u p d r s</span>
+         </a>
+      </li>
+      <li>
+         <a href="#sendNotification"
+            title="http://w3id.org/Wear4PDmove/onto#sendNotification">
+            <span>send notification</span>
+         </a>
+      </li>
+   </ul>
+   <div class="entity" id="ageOfPatient">
+      <h3>age of patient<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#ageOfPatient</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="bodyMassIndex">
+      <h3>body mass index<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#bodyMassIndex</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="diseaseDuration">
+      <h3>disease duration<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#diseaseDuration</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasAkinesia">
+      <h3>has akinesia<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasAkinesia</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasAnxiety">
+      <h3>has anxiety<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasAnxiety</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasBradykinisiaOfUpperLimp">
+      <h3>has bradykinisia of upper limp<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDepression">
+      <h3>has depression<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasDepression</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasDysphagia">
+      <h3>has dysphagia<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasDysphagia</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasFatigue">
+      <h3>has fatigue<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasFatigue</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasFreezingOfGait">
+      <h3>has freezing of gait<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasPosturalInstability">
+      <h3>has postural instability<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasPosturalInstability</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasRigidity">
+      <h3>has rigidity<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasRigidity</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSleepDisturbances">
+      <h3>has sleep disturbances<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasTremor">
+      <h3>has tremor<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#hasTremor</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="heartRate">
+      <h3>heart rate<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#heartRate</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="levelHoehnYahrStage">
+      <h3>level hoehn yahr stage<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="obsAfterDosing">
+      <h3>obs after dosing<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#obsAfterDosing</p>
+      <div class="comment">
+         <span class="markdown">Check if observation is taken 30 min after the last dosage of dosage plan</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="scoreUPDRS">
+      <h3>score u p d r s<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#scoreUPDRS</p>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="sendNotification">
+      <h3>send notification<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#sendNotification</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#AlertingNotification"
+                  title="http://w3id.org/Wear4PDmove/onto#AlertingNotification">Alerting Notification Function</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#BradykinisiaUpperLimpForPDpatient"
+            title="http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient">Bradykinisia Upper Limp for PDpatient</a>
+      </li>
+      <li>
+         <a href="#DailyDosagePlan3Times"
+            title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan3Times">Daily Dosage Plan 3 Times</a>
+      </li>
+      <li>
+         <a href="#DailyDosagePlan4Times"
+            title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+      </li>
+      <li>
+         <a href="#FallingNotification"
+            title="http://w3id.org/Wear4PDmove/onto#FallingNotification">Falling Notification</a>
+      </li>
+      <li>
+         <a href="#MissingDoseNotification"
+            title="http://w3id.org/Wear4PDmove/onto#MissingDoseNotification">Missing Dose Notification</a>
+      </li>
+      <li>
+         <a href="#PatientMovement"
+            title="http://w3id.org/Wear4PDmove/onto#PatientMovement">Patient Movement</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-001"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-001">PDpatient Observation-001</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-002"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-002">PDpatient Observation-002</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-003"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-003">PDpatient Observation-003</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-004"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-004">PDpatient Observation-004</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-005"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-005">PDpatient Observation-005</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-006"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-006">PDpatient Observation-006</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-007"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-007">PDpatient Observation-007</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-008"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-008">PDpatient Observation-008</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-009"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-009">PDpatient Observation-009</a>
+      </li>
+      <li>
+         <a href="#PD-patient-Observation-010"
+            title="http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-010">PDpatient Observation-010</a>
+      </li>
+      <li>
+         <a href="#PDpatient-001" title="http://w3id.org/Wear4PDmove/onto#PDpatient-001">PDpatient-001</a>
+      </li>
+      <li>
+         <a href="#PDpatient-001HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-001HealthRecord">PDpatient-001 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-002" title="http://w3id.org/Wear4PDmove/onto#PDpatient-002">PDpatient-002</a>
+      </li>
+      <li>
+         <a href="#PDpatient-002HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-002HealthRecord">PDpatient-002 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-003" title="http://w3id.org/Wear4PDmove/onto#PDpatient-003">PDpatient-003</a>
+      </li>
+      <li>
+         <a href="#PDpatient-003HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-003HealthRecord">PDpatient-003 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-004" title="http://w3id.org/Wear4PDmove/onto#PDpatient-004">PDpatient-004</a>
+      </li>
+      <li>
+         <a href="#PDpatient-004HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-004HealthRecord">PDpatient-004 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-005" title="http://w3id.org/Wear4PDmove/onto#PDpatient-005">PDpatient-005</a>
+      </li>
+      <li>
+         <a href="#PDpatient-005HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-005HealthRecord">PDpatient-005 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-006" title="http://w3id.org/Wear4PDmove/onto#PDpatient-006">PDpatient-006</a>
+      </li>
+      <li>
+         <a href="#PDpatient-006HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-006HealthRecord">PDpatient-006 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-007" title="http://w3id.org/Wear4PDmove/onto#PDpatient-007">PDpatient-007</a>
+      </li>
+      <li>
+         <a href="#PDpatient-007HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-007HealthRecord">PDpatient-007 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-008" title="http://w3id.org/Wear4PDmove/onto#PDpatient-008">PDpatient-008</a>
+      </li>
+      <li>
+         <a href="#PDpatient-008HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-008HealthRecord">PDpatient-008 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-009" title="http://w3id.org/Wear4PDmove/onto#PDpatient-009">PDpatient-009</a>
+      </li>
+      <li>
+         <a href="#PDpatient-009HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-009HealthRecord">PDpatient-009 Health Record</a>
+      </li>
+      <li>
+         <a href="#PDpatient-010" title="http://w3id.org/Wear4PDmove/onto#PDpatient-010">PDpatient-010</a>
+      </li>
+      <li>
+         <a href="#PDpatient-010HealthRecord"
+            title="http://w3id.org/Wear4PDmove/onto#PDpatient-010HealthRecord">PDpatient-010 Health Record</a>
+      </li>
+      <li>
+         <a href="#SamsungGalaxyWatch-46MM-SM-R800"
+            title="http://w3id.org/Wear4PDmove/onto#SamsungGalaxyWatch-46MM-SM-R800">Samsung Galaxy Watch 46MM-SM-R800</a>
+      </li>
+      <li>
+         <a href="#Acc22-sensor" title="http://w3id.org/Wear4PDmove/onto#Acc22-sensor">Samsung Sensor Accelerometer 22</a>
+      </li>
+      <li>
+         <a href="#SketchingActivity-01"
+            title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-01">SketchingActivity-01</a>
+      </li>
+      <li>
+         <a href="#SketchingActivity-02"
+            title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+      </li>
+      <li>
+         <a href="#TimeOfFirstDosage"
+            title="http://w3id.org/Wear4PDmove/onto#TimeOfFirstDosage">Time of First Dosage</a>
+      </li>
+      <li>
+         <a href="#TimeOfFourthDosage"
+            title="http://w3id.org/Wear4PDmove/onto#TimeOfFourthDosage">Time of Forth Dosage</a>
+      </li>
+      <li>
+         <a href="#TimeOfSecondDosage"
+            title="http://w3id.org/Wear4PDmove/onto#TimeOfSecondDosage">Time of Second Dosage</a>
+      </li>
+      <li>
+         <a href="#TimeOfThirdDosage"
+            title="http://w3id.org/Wear4PDmove/onto#TimeOfThirdDosage">Time of Third Dosage</a>
+      </li>
+      <li>
+         <a href="#TremorForPDPatient"
+            title="http://w3id.org/Wear4PDmove/onto#TremorForPDPatient">Tremor for PDpatient</a>
+      </li>
+      <li>
+         <a href="#Wearable_Acceleration_for_PD_movement"
+            title="http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement">Wearable Acceleration for PD movement</a>
+      </li>
+   </ul>
+   <div class="entity" id="BradykinisiaUpperLimpForPDpatient">
+      <h3>Bradykinisia Upper Limp for PDpatient<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.case.edu/PMDO#BradykinesiaofUpperLimb"
+               target="_blank"
+               title="http://www.case.edu/PMDO#BradykinesiaofUpperLimb">bradykinesiaof upper limb</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DailyDosagePlan3Times">
+      <h3>Daily Dosage Plan 3 Times<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#DailyDosagePlan3Times</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DailyDosagePlan" title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan">Daily Dosage Plan</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="DailyDosagePlan4Times">
+      <h3>Daily Dosage Plan 4 Times<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DailyDosagePlan" title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan">Daily Dosage Plan</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="FallingNotification">
+      <h3>Falling Notification<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#FallingNotification</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#NotifyDoctor" title="http://w3id.org/Wear4PDmove/onto#NotifyDoctor">Notify Doctor</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="MissingDoseNotification">
+      <h3>Missing Dose Notification<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#MissingDoseNotification</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#NotifyDoctor" title="http://w3id.org/Wear4PDmove/onto#NotifyDoctor">Notify Doctor</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PatientMovement">
+      <h3>Patient Movement<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PatientMovement</p>
+      <div class="comment">
+         <span class="markdown">Recording PD patient movement from wearables</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-001">
+      <h3>PDpatient Observation-001<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-001</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-002">
+      <h3>PDpatient Observation-002<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-002</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-003">
+      <h3>PDpatient Observation-003<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-003</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-004">
+      <h3>PDpatient Observation-004<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-004</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-005">
+      <h3>PDpatient Observation-005<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-005</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-006">
+      <h3>PDpatient Observation-006<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-006</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-007">
+      <h3>PDpatient Observation-007<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-007</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-008">
+      <h3>PDpatient Observation-008<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-008</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-009">
+      <h3>PDpatient Observation-009<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-009</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PD-patient-Observation-010">
+      <h3>PDpatient Observation-010<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-010</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/Observation"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/Observation">observation</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#ageOfPatient" title="http://w3id.org/Wear4PDmove/onto#ageOfPatient">age of patient</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"10"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#bodyMassIndex" title="http://w3id.org/Wear4PDmove/onto#bodyMassIndex">body mass index</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.9"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#diseaseDuration" title="http://w3id.org/Wear4PDmove/onto#diseaseDuration">disease duration</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"11"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAkinesia" title="http://w3id.org/Wear4PDmove/onto#hasAkinesia">has akinesia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasAnxiety" title="http://w3id.org/Wear4PDmove/onto#hasAnxiety">has anxiety</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasBradykinisiaOfUpperLimp"
+               title="http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp">has bradykinisia of upper limp</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDepression" title="http://w3id.org/Wear4PDmove/onto#hasDepression">has depression</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasDysphagia" title="http://w3id.org/Wear4PDmove/onto#hasDysphagia">has dysphagia</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFatigue" title="http://w3id.org/Wear4PDmove/onto#hasFatigue">has fatigue</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasFreezingOfGait"
+               title="http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait">has freezing of gait</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasPosturalInstability"
+               title="http://w3id.org/Wear4PDmove/onto#hasPosturalInstability">has postural instability</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasRigidity" title="http://w3id.org/Wear4PDmove/onto#hasRigidity">has rigidity</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasSleepDisturbances"
+               title="http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances">has sleep disturbances</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#hasTremor" title="http://w3id.org/Wear4PDmove/onto#hasTremor">has tremor</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"false"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#heartRate" title="http://w3id.org/Wear4PDmove/onto#heartRate">heart rate</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.8"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#levelHoehnYahrStage"
+               title="http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage">level hoehn yahr stage</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12"^^<a href="http://www.w3.org/2001/XMLSchema#integer"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#integer">integer</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#obsAfterDosing" title="http://w3id.org/Wear4PDmove/onto#obsAfterDosing">obs after dosing</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"true"^^<a href="http://www.w3.org/2001/XMLSchema#boolean"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+            </span>
+         </dd>
+         <dd>
+            <a href="#scoreUPDRS" title="http://w3id.org/Wear4PDmove/onto#scoreUPDRS">score u p d r s</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="literal">"12.5"^^<a href="http://www.w3.org/2001/XMLSchema#decimal"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#decimal">decimal</a>
+            </span>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-001">
+      <h3>PDpatient-001<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-001</p>
+      <div class="comment">
+         <span class="markdown">A specific PD patient observed during a specific  observation.</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-001HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-001HealthRecord">PDpatient-001 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-01"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-01">SketchingActivity-01</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-001HealthRecord">
+      <h3>PDpatient-001 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-001HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-002">
+      <h3>PDpatient-002<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-002</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-002HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-002HealthRecord">PDpatient-002 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-002HealthRecord">
+      <h3>PDpatient-002 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-002HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-003">
+      <h3>PDpatient-003<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-003</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-003HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-003HealthRecord">PDpatient-003 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-003HealthRecord">
+      <h3>PDpatient-003 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-003HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-004">
+      <h3>PDpatient-004<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-004</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-004HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-004HealthRecord">PDpatient-004 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-004HealthRecord">
+      <h3>PDpatient-004 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-004HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-005">
+      <h3>PDpatient-005<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-005</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-005HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-005HealthRecord">PDpatient-005 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-005HealthRecord">
+      <h3>PDpatient-005 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-005HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-006">
+      <h3>PDpatient-006<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-006</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-006HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-006HealthRecord">PDpatient-006 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-006HealthRecord">
+      <h3>PDpatient-006 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-006HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-007">
+      <h3>PDpatient-007<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-007</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-007HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-007HealthRecord">PDpatient-007 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-007HealthRecord">
+      <h3>PDpatient-007 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-007HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-008">
+      <h3>PDpatient-008<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-008</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-008HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-008HealthRecord">PDpatient-008 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-008HealthRecord">
+      <h3>PDpatient-008 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-008HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-009">
+      <h3>PDpatient-009<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-009</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-009HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-009HealthRecord">PDpatient-009 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-009HealthRecord">
+      <h3>PDpatient-009 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-009HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-010">
+      <h3>PDpatient-010<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-010</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PD_Patient" title="http://w3id.org/Wear4PDmove/onto#PD_Patient">PD Patient</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dd>
+            <a href="http://www.w3.org/ns/sosa/FeatureOfInterest"
+               target="_blank"
+               title="http://www.w3.org/ns/sosa/FeatureOfInterest">feature of interest</a>
+         </dd>
+         <dt>has facts</dt>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#DailyDosagePlan4Times"
+               title="http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times">Daily Dosage Plan 4 Times</a>
+         </dd>
+         <dd>
+            <a href="#hasPersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord">has personal health record</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#PDpatient-010HealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PDpatient-010HealthRecord">PDpatient-010 Health Record</a>
+         </dd>
+         <dd>
+            <a href="#performs" title="http://w3id.org/Wear4PDmove/onto#performs">performs</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#SketchingActivity-02"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity-02">SketchingActivity-02</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PDpatient-010HealthRecord">
+      <h3>PDpatient-010 Health Record<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#PDpatient-010HealthRecord</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PersonalHealthRecord"
+               title="http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord">Personal Health Record</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SamsungGalaxyWatch-46MM-SM-R800">
+      <h3>Samsung Galaxy Watch 46MM-SM-R800<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#SamsungGalaxyWatch-46MM-SM-R800</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#SmartWatch" title="http://w3id.org/Wear4PDmove/onto#SmartWatch">Smart Watch</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Acc22-sensor">
+      <h3>Samsung Sensor Accelerometer 22<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#Acc22-sensor</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/Accelerometer"
+               target="_blank"
+               title="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/Accelerometer">accelerometer</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SketchingActivity-01">
+      <h3>SketchingActivity-01<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#SketchingActivity-01</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#SketchingActivity"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity">Sketching Activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="SketchingActivity-02">
+      <h3>SketchingActivity-02<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#SketchingActivity-02</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#SketchingActivity"
+               title="http://w3id.org/Wear4PDmove/onto#SketchingActivity">Sketching Activity</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TimeOfFirstDosage">
+      <h3>Time of First Dosage<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#TimeOfFirstDosage</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DosageTime" title="http://w3id.org/Wear4PDmove/onto#DosageTime">Dosage Time (time in one day)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TimeOfFourthDosage">
+      <h3>Time of Forth Dosage<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#TimeOfFourthDosage</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DosageTime" title="http://w3id.org/Wear4PDmove/onto#DosageTime">Dosage Time (time in one day)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TimeOfSecondDosage">
+      <h3>Time of Second Dosage<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#TimeOfSecondDosage</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DosageTime" title="http://w3id.org/Wear4PDmove/onto#DosageTime">Dosage Time (time in one day)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TimeOfThirdDosage">
+      <h3>Time of Third Dosage<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#TimeOfThirdDosage</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#DosageTime" title="http://w3id.org/Wear4PDmove/onto#DosageTime">Dosage Time (time in one day)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TremorForPDPatient">
+      <h3>Tremor for PDpatient<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#TremorForPDPatient</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.case.edu/MDO#Tremor"
+               target="_blank"
+               title="http://www.case.edu/MDO#Tremor">tremor</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Wearable_Acceleration_for_PD_movement">
+      <h3>Wearable Acceleration for PD movement<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/WearableAcceleration"
+               target="_blank"
+               title="https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/WearableAcceleration">wearable acceleration</a>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

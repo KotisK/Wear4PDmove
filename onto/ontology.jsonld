@@ -1,0 +1,2137 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#hasDosageTime"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DosageTime"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/observedProperty"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatientMissingDoseEventObservation"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#MissingDoseNotification"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#sendNotification"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid26"
+    }, {
+      "@id" : "_:genid24"
+    }, {
+      "@id" : "_:genid22"
+    }, {
+      "@id" : "_:genid20"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid30"
+    }, {
+      "@id" : "_:genid28"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#obsAfterDosing"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/observedProperty"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatientMissingDoseEventObservation"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://saref.etsi.org/core/isMeasuredByDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SmartWatch"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#MissingDoseNotification"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#sendNotification"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://saref.etsi.org/core/isMeasuredByDevice"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SmartWatch"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid13"
+    }, {
+      "@id" : "_:genid11"
+    }, {
+      "@id" : "_:genid9"
+    }, {
+      "@id" : "_:genid7"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid17"
+    }, {
+      "@id" : "_:genid15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#hasTremor"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#obs"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#obsAfterDosing"
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@value" : "Nikolaos Zafeiropoulos"
+  }, {
+    "@value" : "Pavlos Bitilis"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@value" : "05-05-2023"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Konstantinos Kotis"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@value" : "Wear4PDmove: an ontology for knowledge-based personalized health monitoring of PD patients"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "CC0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The designed Wear4PDmoveOnto aims to semantically integrate heterogeneous data such as dynamic/stream data  (collected from wearables) and static/historic data (stored in health databases), in order to represent personal health knowledge in the form of a KG, supporting health apps’ reasoning capabilities for high-level events recognition (e.g., ‘missing dose’ or  ‘patient fall’ event)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wear4PDmoveOnto"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.case.edu/PMDO"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/"
+  }, {
+    "@id" : "https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "v1.0.0"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/Accelerometer" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Samsung Sensor Accelerometer 22"
+  } ],
+  "http://www.w3.org/ns/sosa/observes" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#AlertingNotification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Alerting Notification Function for event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Alerting Notification Function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/core/ActuatingFunction"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.case.edu/PMDO#BradykinesiaofUpperLimb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Bradykinisia Upper Limp for PDpatient"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Daily dosage plan for patient (4 times one day)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Daily Dosage Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#MedicalPrescription"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan3Times",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Daily Dosage Plan 3 Times"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Daily Dosage Plan 4 Times"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#Diagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "diagnosis for patient in one appointment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Diagnosis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#DosageTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Dosage time on datetime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dosage Time (time in one day)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/core/Time"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#FallingNotification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#NotifyDoctor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Falling Notification"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#MedicalPrescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Medical Prescription for Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Medical Prescription"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#MissingDoseNotification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#NotifyDoctor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Missing Dose Notification"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#NotifyDoctor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Notify doctor for event (alert notification)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Notify Doctor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#AlertingNotification"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-001"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-001"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "http://www.w3.org/ns/sosa/resultTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-07-06T12:36:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-002"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-002"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-003"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-003"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-004"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-004"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-005"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-005"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-006"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-006"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-007"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-007"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-008"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-008"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-009"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-009"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Observation" ],
+  "http://w3id.org/Wear4PDmove/onto#ageOfPatient" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#bodyMassIndex" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.9"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#diseaseDuration" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "11"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAkinesia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasAnxiety" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDepression" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasDysphagia" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFatigue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasRigidity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#hasTremor" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#heartRate" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.8"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#obsAfterDosing" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#scoreUPDRS" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "12.5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Observation-010"
+  } ],
+  "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-010"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement"
+  } ],
+  "http://www.w3.org/ns/sosa/madeBySensor" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Acc22-sensor"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#BradykinisiaUpperLimpForPDpatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2022-08-04T12:42:12.150Z"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "PD patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PD Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Patient"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-001HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-01"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A specific PD patient observed during a specific  observation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PDpatient-001"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-001HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-001 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-002HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-002"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-002HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-002 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-003HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-003"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-003HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-003 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-004HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-004"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-004HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-004 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-005HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-005"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-005HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-005 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-006HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-006"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-006HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-006 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-007HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-007"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-007HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-007 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-008HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-008"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-008HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-008 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-009HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-009"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-009HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-009 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan4Times"
+  }, {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-010HealthRecord"
+  } ],
+  "http://w3id.org/Wear4PDmove/onto#performs" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PD_Patient"
+  }, {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-010"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatient-010HealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient-010 Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatientFalllingEventObservation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Falling event observation for PD Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Fallling Event Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#RecognizedEvent"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PDpatientMissingDoseEventObservation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Missing dose event Observation for PD Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PDpatient Missing Dose Event Observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#RecognizedEvent"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#Patient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Any kind of patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://schema.org/Person"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PatientMovement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Recording PD patient movement from wearables"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Patient Movement"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Personal Health Record of a patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Personal Health Record"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#RecognizedEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Recognized event for one PD Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PD patient recognized event observation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/sosa/Observation"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#SamsungGalaxyWatch-46MM-SM-R800",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SmartWatch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Samsung Galaxy Watch 46MM-SM-R800"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An activity followed by the patient during his free time, using his hands (sketching)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sketching Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.case.edu/MDO#ActivitiesofDailyLiving"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SketchingActivity-01"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity-02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#SketchingActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SketchingActivity-02"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#SmartWatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An off-the-shelf smart watch with sensors able to measure movement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Smart Watch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://saref.etsi.org/saref4wear/OnBodyWearable"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#TimeOfFirstDosage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DosageTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time of First Dosage"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@value" : "08:00"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#TimeOfFourthDosage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DosageTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time of Forth Dosage"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@value" : "20:00"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#TimeOfSecondDosage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DosageTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time of Second Dosage"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@value" : "12:00"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#TimeOfThirdDosage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DosageTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time of Third Dosage"
+  } ],
+  "https://saref.etsi.org/core/hasTimestamp" : [ {
+    "@value" : "16:00"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#TremorForPDPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.case.edu/MDO#Tremor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Tremor for PDpatient"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#WalkingActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An activity followed by the patient during his free time, using his hands (walking)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Walking Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.case.edu/MDO#ActivitiesofDailyLiving"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/WearableAcceleration" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wearable Acceleration for PD movement"
+  } ],
+  "http://www.w3.org/ns/sosa/observedProperty" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Wearable_Acceleration_for_PD_movement"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#ageOfPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#bodyMassIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#consistsOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#diseaseDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasAkinesia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasAnxiety",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasBradykinisiaOfUpperLimp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasDepression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasDosageTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DailyDosagePlan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#DosageTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://saref.etsi.org/core/hasTime"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasDysphagia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasFatigue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasFreezingOfGait",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasPersonalHealthRecord",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#PersonalHealthRecord"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasPosturalInstability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasRigidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasSleepDisturbances",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#hasTremor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#heartRate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#isPerformedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isPerformedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#performs"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#levelHoehnYahrStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#obsAfterDosing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Check if observation is taken 30 min after the last dosage of dosage plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#performs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "human (patient) performs an action (ADL)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#Patient"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "performs"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.case.edu/MDO#ActivitiesofDailyLiving"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#scoreUPDRS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://w3id.org/Wear4PDmove/onto#sendNotification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://w3id.org/Wear4PDmove/onto#AlertingNotification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.case.edu/MDO#ActivitiesofDailyLiving",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.case.edu/MDO#Tremor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.case.edu/PMDO#BradykinesiaofUpperLimb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest",
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://saref.etsi.org/core/FeatureOfInterest"
+  } ]
+}, {
+  "@id" : "https://dahcc.idlab.ugent.be/Ontology/SensorsAndWearables/hasAxis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "https://saref.etsi.org/core/hasTimestamp",
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "dose time"
+  } ]
+}, {
+  "@id" : "urn:swrl:var#obs",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
