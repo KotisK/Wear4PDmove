@@ -4,3 +4,6 @@
 - New instances for experimental scenarios
 - New documentation (LODE https://essepuntato.it/lode/), (WIDOCO https://github.com/dgarijo/Widoco)
 - Validation by OOPS! https://oops.linkeddata.es/
+
+Location of .owl file: https://i-lab.aegean.gr/kotis/Ontologies/Wear4PDmove/Onto-v1.0.0/
+Previous version (v0.5): https://i-lab.aegean.gr/kotis/Ontologies/Wear4PDmove/
