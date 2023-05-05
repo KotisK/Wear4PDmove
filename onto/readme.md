@@ -3,7 +3,7 @@
 The latest version of Wear4PDmove ontology.
 
 Changes:
-- New URI (public @W3id.org)
+- New IRI (public @W3id.org)
 - New classes/properties
 - New instances for experimental scenarios
 - New documentation (LODE)
