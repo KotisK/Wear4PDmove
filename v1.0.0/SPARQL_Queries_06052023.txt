@@ -40,14 +40,7 @@ WHERE {
 	     w4pd:hasPersonalHealthRecord ?phr.
 }
 
-
-// Q6 get rigidity for specific patient
-SELECT ?rigidity
-WHERE {
-  w4pd:PD-patient-Observation-001 w4pd:hasRigidity ?rigidity .
-}
-
-// Q7 get observations for the patients with rigidity true
+// Q6 get observations for the patients with rigidity true
 SELECT ?observation ?rigidity
 WHERE {
   ?observation w4pd:hasRigidity true .
