@@ -1,9 +1,9 @@
-Rule 1 (Bradykinisia): Observation(?obs), hasBradykinisiaOfUpperLimp(?obs, true), 'observed property'(?obs, 'Bradykinisia Upper Limp for PDpatient'), obsAfterDosing(?obs, true) -> sendNotification('Missing Dose Notification', true), 'PDpatient Missing Dose Event Observation'(?obs)
+Rule 1 (Bradykinisia): Observation(?obs), 'has bradykinisia of upper limp'(?obs, true), 'observed property'(?obs, 'Bradykinisia Upper Limp for PDpatient'), 'observation after dosing'(?obs, true) -> 'send notification'('Missing Dose Notification', true), 'PD patient Missing Dose Event Observation'(?obs)
 
-Rule 2 (Tremor): Observation(?obs), 'observed property'(?obs, 'Tremor for PDpatient'), obsAfterDosing(?obs, true), hasTremor(?obs, true) -> sendNotification('Missing Dose Notification', true), 'PDpatient Missing Dose Event Observation'(?obs)
+Rule 2 (Tremor): Observation(?obs), 'observed property'(?obs, 'Tremor for PDpatient'), 'observation after dosing'(?obs, true), 'has tremor'(?obs, true) -> 'send notification'('Missing Dose Notification', true), 'PD patient Missing Dose Event Observation'(?obs)
 
 
-    ///////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Rules
     //

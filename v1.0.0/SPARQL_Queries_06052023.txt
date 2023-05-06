@@ -1,0 +1,58 @@
+//For Snap SPARQL plugin (inferred triples)
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX w4pd: <http://w3id.org/Wear4PDmove/onto#>
+PREFIX saref: <https://saref.etsi.org/core/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+
+// Q1 get all activities of all patients
+SELECT ?activity ?patient
+WHERE {
+?patient rdf:type w4pd:PD_Patient;
+		 w4pd:performs ?activity.
+}
+
+// Q2 get patient who performs SketchingActivity-01
+SELECT ?patient
+WHERE {
+?patient w4pd:performs w4pd:SketchingActivity-01.
+}
+
+// Q3 get observations that has been recorded for PDpatient-002 (inferred triples, use snapSPARQL query view)
+SELECT ?observation
+WHERE {
+w4pd:PDpatient-002 sosa:isFeatureOfInterestOf ?observation.
+}
+
+// Q4 get the patient with the specific PHR
+SELECT ?patient
+WHERE {
+?patient w4pd:hasPersonalHealthRecord w4pd:PDpatient-001HealthRecord.
+}
+		
+// Q5 get patient and its personal health record
+SELECT ?patient ?phr
+WHERE {
+?patient rdf:type w4pd:PD_Patient;
+	     w4pd:hasPersonalHealthRecord ?phr.
+}
+
+
+// Q6 get rigidity for specific patient
+SELECT ?rigidity
+WHERE {
+  w4pd:PD-patient-Observation-001 w4pd:hasRigidity ?rigidity .
+}
+
+// Q7 get observations for the patients with rigidity true
+SELECT ?observation ?rigidity
+WHERE {
+  ?observation w4pd:hasRigidity true .
+  ?observation w4pd:hasRigidity ?rigidity .
+}
+
+
+
