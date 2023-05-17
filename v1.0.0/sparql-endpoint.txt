@@ -1,10 +1,10 @@
-http://ct-linkdata.aegean.gr:3041/
+http://ct-linkdata.aegean.gr:3041
 
 Build with React and Fuseki (Docker image)
 
-The provided SPARQL query is designed to retrieve all activities performed by all patients in a dataset.
+The provided SPARQL query is designed to retrieve activities performed by  patients in a dataset.
 
-Αn example is given below (Q1 get all activities of all patients):
+Αn example is given below (Q1 get activities of patients):
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -17,5 +17,5 @@ PREFIX sosa: <http://www.w3.org/ns/sosa/>
 SELECT ?activity ?patient
 WHERE {
 ?patient rdf:type w4pd:PD_Patient;
-		 w4pd:performs ?activity.
+	 w4pd:performs ?activity.
 }
