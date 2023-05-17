@@ -1,4 +1,4 @@
-http://ct-linkdata.aegean.gr:3041
+[http://ct-linkdata.aegean.gr:3041] (http://ct-linkdata.aegean.gr:3041)
 
 Build with React and Fuseki (Docker image)
 
