@@ -47,5 +47,9 @@ WHERE {
   ?observation w4pd:hasRigidity ?rigidity .
 }
 
-
-
+// Q7 get observations for the patients with level Hoehn Yahr Stage equal with 12
+SELECT ?observation ?levelHoehnYahrStage
+WHERE {
+  ?observation w4pd:levelHoehnYahrStage 12 .
+  ?observation w4pd:levelHoehnYahrStage ?levelHoehnYahrStage .
+}
