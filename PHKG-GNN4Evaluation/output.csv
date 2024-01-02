@@ -1,0 +1,10 @@
+patientURI,ageOfPatient,bodyMassIndex,diseaseDuration,hasAkinesia,hasAnxiety,hasBradykinisiaOfUpperLimp,hasDepression,hasDysphagia,hasFatigue,hasFreezingOfGait,hasPosturalInstability,hasRigidity,hasSleepDisturbances,hasTremor,heartRate,levelHoehnYahrStage,obsAfterDosing,scoreUPDRS
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-101,10,12.9,11,True,True,False,False,False,True,False,True,False,False,False,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-102,10,12.9,11,True,True,False,False,False,True,False,True,False,False,False,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-103,10,12.9,11,True,True,True,False,False,True,False,True,False,False,True,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-201,10,12.9,11,True,True,False,False,False,True,False,True,False,False,False,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-202,10,12.9,11,True,True,False,False,False,True,False,True,False,False,False,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-203,10,12.9,11,True,True,True,False,False,True,False,True,False,False,True,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-301,10,12.9,11,True,True,False,False,False,True,False,True,False,False,False,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-302,10,12.9,11,True,True,False,False,False,True,False,True,False,False,False,12.8,12,True,12.5
+http://w3id.org/Wear4PDmove/onto#PD-patient-Observation-303,10,12.9,11,True,True,False,False,False,True,False,True,False,False,False,12.8,12,True,12.5

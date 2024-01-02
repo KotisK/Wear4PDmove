@@ -1,0 +1,10 @@
+ageOfPatient,bodyMassIndex,diseaseDuration,hasAkinesia,hasAnxiety,hasBradykinisiaOfUpperLimp,hasDepression,hasDysphagia,hasFatigue,hasFreezingOfGait,hasPosturalInstability,hasRigidity,hasSleepDisturbances,hasTremor,heartRate,levelHoehnYahrStage,obsAfterDosing,scoreUPDRS,send_notification_medium_alert,send_notification_high_alert
+10,12.9,11,1,1,0,0,0,1,0,1,0,0,0,12.8,12,1,12.5,0,0
+10,12.9,11,1,1,0,0,0,1,0,1,0,0,0,12.8,12,1,12.5,0,0
+10,12.9,11,1,1,1,0,0,1,0,1,0,0,1,12.8,12,1,12.5,1,1
+10,12.9,11,1,1,0,0,0,1,0,1,0,0,0,12.8,12,1,12.5,0,0
+10,12.9,11,1,1,0,0,0,1,0,1,0,0,0,12.8,12,1,12.5,0,0
+10,12.9,11,1,1,1,0,0,1,0,1,0,0,1,12.8,12,1,12.5,1,1
+10,12.9,11,1,1,0,0,0,1,0,1,0,0,0,12.8,12,1,12.5,0,0
+10,12.9,11,1,1,0,0,0,1,0,1,0,0,0,12.8,12,1,12.5,0,0
+10,12.9,11,1,1,0,0,0,1,0,1,0,0,0,12.8,12,1,12.5,0,0
